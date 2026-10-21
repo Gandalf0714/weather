@@ -40,6 +40,10 @@ WeatherModelService
 
 要求 Python 3.10 或更高版本。
 
+Windows 可以直接双击根目录的 `start_weather.bat`。脚本会在需要时创建虚拟环境、安装依赖、启动服务并打开浏览器。命令窗口必须保持开启，关闭窗口会停止网站。
+
+也可以手动启动：
+
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
